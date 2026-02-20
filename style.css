@@ -21,6 +21,7 @@ body button:active{
     background-color: rgba(0, 0, 0, 0.493);
     color: white;
     align-items: center;
+    z-index: -1;
 }
 .nobar h2{
     font-size: 16px;
@@ -34,6 +35,9 @@ body button:active{
     display: flex;
     margin-left: 60px;
 }
+.left img{
+    width: 150px;
+}
 .de{
     width: 100%;
     background-image: url(./img/premium_photo-1661288481553-58fa39c17c84.avif);
@@ -41,7 +45,7 @@ body button:active{
     height: 600px;
     justify-items: center;
     position: relative;
-    
+    z-index: -2;
 }
 .de::after{
     content: "";
